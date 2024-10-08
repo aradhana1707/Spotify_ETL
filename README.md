@@ -24,12 +24,12 @@
 
 ### 2. Transformation (AWS Lambda)
 
-- (arn:aws:lambda:ap-south-1:654654433023:function:spotify_transform): Lambda function to transform extracted data
+- (arn:aws:lambda:ap-south-1:654654433023:function:spotify_etl_extract): Lambda function to transform extracted data
 - Requirements:
    ### - boto3 library
    ### - AWS credentials (Access Key ID, Secret Access Key)
 - Input: JSON files from S3 bucket (s3://spotify-data-extraction/)
-- Output: Transformed JSON files stored in S3 bucket (s3://spotify-etl-new/raw_data/)
+- Output: Transformed JSON files stored in S3 bucket (s3://spotify-etl-new/raw_data/processed/)
 
 ### 3. Loading (AWS Athena)
 
