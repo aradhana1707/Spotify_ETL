@@ -2,9 +2,6 @@
 ## OVERVIEW OF PROJECT
 ### This project builds an ETL (Extract, Transform, Load) pipeline to extract Spotify data using Python, transform it with AWS Lambda, and load it onto AWS Athena for analysis.
 
-## TECHNOLOGY USED:
-
-
 ## ARCHITECTURE
 ### 1. Extraction:
     - Python script using Spotify API to extract data 
